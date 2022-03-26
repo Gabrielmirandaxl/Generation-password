@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title h1{
+    text-align: center;
+    margin: 200px 0px 25px 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+
+.container-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.container-input span{
+    color: white;
+}
+
+.container-input .slider{
+    width: 300px;
+   
+}
+
+.container-input .button-cta{
+    width: 260px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.2em;
+    margin: 0px 0px 19px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-input .button-cta:hover{
+    background-color: rgb(5, 5, 5) ;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#container-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+#container-password span{
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+}
+
+#container-password .result-passwd{
+    background-color: #000000;
+    padding: 10px 65px 10px 65px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#container-password .passwd-copy{
+    background-color:#5d6164b7;
+    border: #0000005e 1px solid;
+    padding: 9px 25px 9px 25px;
+    border-radius: 5px;
+    opacity: 0;
+}
+
+#container-password .result-passwd:hover + .passwd-copy{
+    opacity: 1;
+    background-color: #01020293;
+    transition: 0.3s;
+    
+}
+
+.remove{
+    display: none;
+}
+
+body{
+    background-color: #34495e;
+}
